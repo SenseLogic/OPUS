@@ -1,0 +1,31 @@
+{
+    "name": "senselogic-opus",
+    "description": "Reusable base classes and functions.",
+    "version": "0.1.0",
+    "author": "Eric Pelzer <ecstatic.coder@gmail.com>",
+    "license": "LGPL-3.0-only",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/senselogic/OPUS.git"
+    },
+    "bugs": {
+        "url": "https://github.com/senselogic/OPUS/issues"
+    },
+    "homepage": "https://github.com/senselogic/OPUS",
+    "type": "module",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "test.js",
+        "README.md"
+    ],
+    "keywords": [
+        "opus",
+        "base",
+        "classes",
+        "functions"
+    ],
+    "scripts": {
+        "test": "node test.js"
+    }
+}
