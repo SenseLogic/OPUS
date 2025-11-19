@@ -387,30 +387,6 @@ export function isElement(
 
 // ~~
 
-export function getMapByCode(
-    elementArray,
-    default_value = null
-    )
-{
-    if ( elementArray )
-    {
-        let elementMap = {};
-
-        for ( let element of elementArray )
-        {
-            elementMap[ element.code ] = element;
-        }
-
-        return elementMap;
-    }
-    else
-    {
-        return default_value;
-    }
-}
-
-// ~~
-
 export function getMapById(
     elementArray,
     default_value = null
